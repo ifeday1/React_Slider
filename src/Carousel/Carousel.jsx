@@ -1,15 +1,18 @@
 import React from 'react'
 import './Carousel.css'
+import "../index.css"
 
 import bg1 from "../Image/bg1.png"
 import bg2 from "../Image/bg2.png"
 
 
-import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, EffectCoverflow, Autoplay } from 'swiper'
-
+import { Swiper, SwiperSlide } from "swiper/react";
 // import 'swiper/swiper-bundle.min.css'
 // import 'swiper/swiper.min.css'
+
+
+
 
 const Slider = [
     {
